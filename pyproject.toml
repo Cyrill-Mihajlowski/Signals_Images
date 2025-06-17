@@ -1,0 +1,17 @@
+[project]
+name = "signals-images"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[tool.ruff]
+line-length = 88
+
+select = [
+    "E",   # Pycodestyle errors
+    "F",   # Pyflakes
+    "B",   # flake8-bugbear
+    "I",   # isort
+]
